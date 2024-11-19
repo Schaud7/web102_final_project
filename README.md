@@ -1,6 +1,6 @@
-# Web Development Final Project - *Online appointment system*
+# Web Development Final Project - OnlineAppointmentSystem
 
-Submitted by: **Suman Chaudhary**
+Submitted by: Suman Chaudhary
 
 This web app: **insert description**
 
