@@ -1,0 +1,147 @@
+/* src/App.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.home-section {
+  text-align: center;
+  padding: 50px;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.home-section h2 {
+  font-size: 36px;
+}
+
+button {
+  background-color: #4a90e2;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #357ab7;
+}
+
+.services-section, .appointment-section, .contact-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.services-section h2, .appointment-section h2, .contact-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.services-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.services-section li {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+form input, form select {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 300px;
+}
+
+form button {
+  background-color: #5cb85c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #4cae4c;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* src/App.css */
+.service-img {
+  width: 50%; /* Adjust to the desired size */
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.service {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.service img {
+  max-width: 100%;
+  height: auto;
+}
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers the content horizontally */
+  justify-content: center; /* Centers the content vertically */
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.contact-section p {
+  font-size: 18px;
+  margin: 10px 0;
+}
